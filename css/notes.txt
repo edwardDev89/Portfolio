@@ -1,0 +1,27 @@
+element style always first prioritize, then internal (inside index.html) and then external css*/
+selector (who style) { property (what) : value (how)  ;}*/
+property of selector always describe in alphabetically ascending*/
+id and class selectors will overwrite tag selectors
+
+div , span , img , a  is inline display element, it only affect with css and take space as its needed , not like block element such as <p> 
+display inline and block (take up whole width) can change the element display type 
+Display: none / visibility: hidden - hide the element
+
+html class can specify more than 1 class under 1 element , example <h1 class ="class1 class2"
+pseudo classes such as :active change status of element
+
+id name must be unique in html page and only 1 id in an element
+more specific selector
+
+always use percent instead of fix width
+
+position => 
+static(default)
+relative (doesn't affect other element when move from the edge itself)
+absolute (move based on parent edge but not self edgee the element out from the flow and not inline block, it can move freely)
+fixed (stay at same location when scroll down)
+
+Coordinate => top,botom,left,right
+
+font size is recommend to use rem , because em and px will affect by body define size
+
