@@ -12,8 +12,18 @@
     <!-- Bootstrap CDN CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
+    <!-- Font Awesome CDN CSS-->
+    <script src="https://kit.fontawesome.com/d3d3460c7f.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+
     <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+    <!-- Owl Carousell -->
+    <link rel="stylesheet" href="css/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owlcarousel/owl.theme.default.min.css">
 
       <!--Favicon that appear on tab-->
     <link rel="icon" href="images/favicon.png">
@@ -27,19 +37,22 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">EK.</a>
+      <a class="navbar-brand js-scroll-trigger animated fadeInLeft" href="#page-top">EK.</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
+          <li class="nav-item animated fadeInDown">
             <a class="nav-link js-scroll-trigger" href="#about">About</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item animated fadeInUp">
+            <a class="nav-link js-scroll-trigger" href="#resumes">Experiences</a>
+          </li>
+          <li class="nav-item animated fadeInDown">
             <a class="nav-link js-scroll-trigger" href="#skill">Skills</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item animated fadeInUp">
             <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
           </li>
         </ul>
@@ -64,45 +77,128 @@
   <section id="about">
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 mx-auto">
+        <div class="col-lg-12 mx-auto section-title">
           <h2>About Me 🙋‍♂️</h2>
           <p class="lead">I'm Edward, from Malaysia. I'm graduated as Bachelor Degree in Artificial Intelligence from Multimedia University, Malaysia at 2011.</p>
-          <p class="lead">I work as full stack developer and work with several companies after graduated. Along my employment journey, i have involved in SDLC from backend to frontend development with different technologies & tools included database design.</p>
-          <p class="lead">I'm passionate on web development as i love to work with interactive UI, thus i'm more enjoyable on frontend compare with backend development. Besides work as a developer, i also interested on UI/UX design.</p>
+          <p class="lead">I work as full stack developer and work with several companies after graduated. Along my employment journey, I have involved in SDLC from backend to frontend development with different technologies & tools included database design.</p>
+          <p class="lead">I'm passionate on web development as I love to work with interactive UI, thus I'm more enjoyable on frontend compare with backend development. Besides work as a developer, I also interested on UI/UX design.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <section id="skill" class="bg-light">
+  <section id="resumes" class="resume bg-light">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Experiences 💻</h2>
+        <p class="lead">Below is my short summary working experiences timeline. During my employment journey , I worked with several companies with different industry such as semiconductor, cruise, services, and consumer production. I also have business travel opportunity to several EU and Asia countries for project purpose.</p>
+      </div>
+
+      <div class="row">
+
+        <div class="col-lg-12">
+
+          <!-- Timeline -->
+          <ul class="timeline">
+            <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
+                <div class="timeline-arrow"></div>
+                <h5>Remote Full Stack Developer</h5>
+                <h6 class="text-secondary">2019 - Present | Resco System Ltd , UK</h6>
+                <ul>
+                  <li class="font-weight-light">Improved and maintaining frontend & backend for company .NET windows / web applications.</li>
+                  <li class="font-weight-light">Refactoring windows application reporting engine structure from client to server using Crystal Report.</li>
+                  <li class="font-weight-light">Lead & developed cruise mustering web application.</li>
+                  <li class="font-weight-light">Involved in Azure DevOps Server CI/CD pipeline build setup for company windows / web application.</li>
+                  <li class="font-weight-light">Involved in Xamarin mobile development for cruise check in application such as Xamarin Form UI modification and backend enhancement.</li>
+                </ul>
+            </li>
+            <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
+              <div class="timeline-arrow"></div>
+              <h5>Full Stack System Engineer</h5>
+              <h6 class="text-secondary">2014 - 2019 | Infineon Technologies , Malaysia</h6>
+              <ul>
+                <li class="font-weight-light">Improved and maintaining frontend & backend for company web applications.</li>
+                <li class="font-weight-light">Migration and revamp (framework upgrade, redesign and redevelop) company asset web portal which can manage and check employee asset status (asset transfer ownership, asset validation,  loan asset & etc)</li>
+                <li class="font-weight-light">Lead & developed survey web application for survey creation, collecting & analyse survey feedbacks.</li>
+                <li class="font-weight-light">Lead & developed new production web portal to manage all production application links.</li>
+                <li class="font-weight-light">Developed & manage meeting room web application for company.</li>
+                <li class="font-weight-light">Administrate, maintenance and customize team foundation server for developer's source code management.</li>
+              </ul>
+            </li>
+            <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
+              <div class="timeline-arrow"></div>
+              <h5>Software Engineer</h5>
+              <h6 class="text-secondary">2013 - 2014 | Open Integration Ptd Ltd , Singapore</h6>
+              <ul>
+                <li class="font-weight-light">Developed recipe management system for production machine to load recipe and produce product.</li>
+                <li class="font-weight-light">Developed new single page company website.</li>
+                <li class="font-weight-light">Improved and restructure company existing web application.</li>
+                <li class="font-weight-light">Perform UAT test for every new production machine using SECSGEM standard.</li>
+                <li class="font-weight-light">Support and troubleshoot client production machine issue.</li>
+              </ul>
+            </li>
+            <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
+              <div class="timeline-arrow"></div>
+              <h5>Jr. Software Engineer</h5>
+              <h6 class="text-secondary">2011 - 2013 | Samsung Electronic Display , Malaysia</h6>
+              <ul>
+                <li class="font-weight-light">Developed MRO web application for product quality & quantity control.</li>
+                <li class="font-weight-light">Developed goods permission web application for employee to register goods before bring out from company.</li>
+                <li class="font-weight-light">Developed several In-house employee management web application for manage employee leaves , OT and financial claim.</li>
+                <li class="font-weight-light">Developed a calendar web application for department to update calendar event.</li>
+                <li class="font-weight-light">Improved barcode converter application performance for production user.</li>
+              </ul>
+            </li>
+          </ul>
+          <!-- End -->
+
+      </div>
+
+    </div>
+  </section>
+
+  <section id="skill">
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <h2>Skill ⚙️</h2>
-          <br/>
-          <h6>Programming languages & Tools</h6>
-            <div class="skillContainer">
-              <img src="images/html5.svg" class="skillIcon">
-              <img src="images/css3.svg" class="skillIcon">
-              <img src="images/js.svg" class="skillIcon">
-              <img src="images/bootstrap.svg" class="skillIcon">
-              <img src="images/angular.svg" class="skillIcon">
-              <img src="images/firebase.svg" class="skillIcon">
-              <img src="images/csharp.svg" class="skillIcon">
-              <img src="images/azure.svg" class="skillIcon">
-              <img src="images/mssql.svg" class="skillIcon">
-              <img src="images/git.svg" class="skillIcon">
+        <div class="col-lg-12 mx-auto section-title">
+          <h2>Skills ⚙️</h2>
+            <div class="owl-carousel owl-theme">         
+              <img src="images/html5.svg" class="skillIcon" title="HTML5">
+              <img src="images/css3.svg" class="skillIcon" title="CSS3">
+              <img src="images/js.svg" class="skillIcon" title="Vanilla Javascript">
+              <img src="images/bootstrap.svg" class="skillIcon" title="Bootstrap">
+              <img src="images/angular.svg" class="skillIcon" title="Angular">
+              <img src="images/firebase.svg" class="skillIcon" title="Firebase">
+              <img src="images/dotnetcore.svg" class="skillIcon" title=".Net Core">
+              <img src="images/csharp.svg" class="skillIcon" title="C#">
+              <img src="images/azure.svg" class="skillIcon" title="Azure DevOps Server">
+              <img src="images/mssql.svg" class="skillIcon" title="MS SQL">
+              <img src="images/git.svg" class="skillIcon" title="Git">
             </div>
       </div>
     </div>
   </section>
 
-  <section id="contact">
+  <section id="contact" class="bg-light">
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 mx-auto">
+        <div class="col-lg-12 mx-auto section-title">
           <h2>Contact 📧</h2>
-          <p class="lead">You can reach me through my email at edwardkwong89@gmail.com</p>
+          <p class="lead">For any enquiries, you can reach me via email or linkedin.</p>
+          <div class="row">
+           
+            <span class="fa-stack fa-2x ml-3">
+              <i class="fas fa-circle fa-stack-2x"></i>
+              <a href="mailto:edwardkwong89@gmail.com"><i class="far fa-envelope fa-stack-1x fa-inverse" title="edwardkwong89@gmail.com"></i></a>
+            </span>
+
+            <span class="fa-stack fa-2x">
+              <i class="fas fa-circle fa-stack-2x"></i>
+              <a href="https://www.linkedin.com/in/edward-kwong/"><i class="fab fa-linkedin-in fa-stack-1x fa-inverse"></i></a>
+            </span>
+
+          </div>
         </div>
       </div>
     </div>
@@ -117,7 +213,7 @@
 
   <!-- Bootstrap core JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
@@ -127,6 +223,8 @@
   <!-- Custom JavaScript for this theme -->
   <script src="js/scrolling-nav.js"></script>
   <script src="js/typewritter.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/main.js"></script>
 
   </body>
 </html>
